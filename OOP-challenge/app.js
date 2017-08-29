@@ -1,3 +1,4 @@
+
 class bankAccount{
     constructor(name, accountNumber, pin, bankName, accountType){
       this.name = name;
