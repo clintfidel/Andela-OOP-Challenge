@@ -91,3 +91,5 @@ class studentAccount extends bankAccount{
   }
 }
 let clinton = new studentAccount("Clinton Fidelis", 23455677, 1234, "GTB", "savings");
+//exporting classs for testing
+export default bankAccount;
