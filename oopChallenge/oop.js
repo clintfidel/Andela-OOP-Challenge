@@ -31,15 +31,16 @@ class bankAccount{
         return `Deposit successful, your new balance is: ${this._balance}`;
       }
     }
-      balanceInquiry(pin){
-        if(pin !== this._password){
-          return "Invalid pin Supplied";
-        }
-        else {
-          return `Your balance is:  ${this._balance}`;
-        
+    balanceInquiry(pin){
+      if(pin !== this._password){
+        return "Invalid pin Supplied";
       }
+      else {
+        return `Your balance is:  ${this._balance}`;
+      
+      }  
     }
+
   }
   //student inherits from the parent class(bankAccount)
 class studentAccount extends bankAccount{
